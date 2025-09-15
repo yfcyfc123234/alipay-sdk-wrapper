@@ -3,7 +3,7 @@ plugins {
 
     id 'kotlin-android'
     // id 'kotlin-kapt'
-    id 'kotlin-parcelize'
+//    id 'kotlin-parcelize'
 }
 
 android {
@@ -37,7 +37,7 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
+        viewBinding = false
         buildConfig = true
     }
 }
@@ -48,7 +48,7 @@ dependencies {
     // https://opendocs.alipay.com/open/00dn75?pathHash=22ed0058
     api 'com.alipay.sdk:alipaysdk-android:15.8.30@aar'
 
-    api 'androidx.appcompat:appcompat:1.7.0'
+//    api 'androidx.appcompat:appcompat:1.7.0'
     api "com.blankj:utilcodex:1.31.1"
 }
 

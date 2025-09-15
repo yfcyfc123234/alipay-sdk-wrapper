@@ -21,12 +21,5 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
-    <application tools:ignore="DiscouragedApi">
-        <activity android:name=".ui.AliPayDemoActivity" />
-        <activity
-            android:name=".ui.AliPayDemoH5Activity"
-            android:configChanges="orientation|keyboardHidden|navigation"
-            android:exported="false"
-            android:screenOrientation="behind" />
-    </application>
+    <application tools:ignore="DiscouragedApi" />
 </manifest>
